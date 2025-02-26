@@ -5,6 +5,16 @@ Case MBVIM in the paper:
 
 _Control of Hypersonic Shock-Wave/Laminar Boundary-Layer Interaction using Deep Reinforcement Learning_
 
+Abstract:
+Deep reinforcement learning (DRL) is applied to control the flow separation induced by the shock-wave/boundary-layer interaction (SBLI)  for the first time in a laminar compression ramp configuration simulated via OpenFOAM.
+The wall pressure coefficient serves as the observed state, while the agent outputs microjet actuation as the corresponding action. 
+The wall skin friction coefficient, indicating the extent of SBLI-induced flow separation, is used as the reward to guide the learning process.
+Under both constant and varying incoming Mach number conditions, a converged controlled model can be obtained through the repeated DRL training, resulting in a 40% reduction in the separation area.
+The suppression of the separated shear layer is owing to the weakening of the separation shock and the energizing of the local boundary layer under the DRL control.
+To reduce the computational costs of CFD simulations, a long short-term memory network is employed as a surrogate model for the environment in DRL. 
+This model-based approach reduces overall training time by nearly 60% and at the same time achieves accuracy comparable to the model-free method that only interacts with the CFD environment.
+The present study opens a gateway to the closed-loop control of SBLI using state-of-the-art DRL. 
+
 ![image](https://github.com/YiZhouNJUST/DRLinSTBLI/blob/master/framework.jpg)
 
 # Requirement
