@@ -1,7 +1,7 @@
 DRLinSTBLI
 =
 # Introduction
-Control of Hypersonic Shock-Wave/Laminar Boundary-Layer Interaction using Deep Reinforcement Learning
+Case MBVIM in the paper _Control of Hypersonic Shock-Wave/Laminar Boundary-Layer Interaction using Deep Reinforcement Learning_
 # requirement
 OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 # Run
