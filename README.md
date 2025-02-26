@@ -33,7 +33,7 @@ OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 
 **DRLinSTBLI-58w_oneJet_3D/ExchangeFoam.py:** data exchange between CFD and DRL
 
-DRLinSTBLI-58w_oneJet_3D/LSTMenv.py: surrogate model for environment
+**DRLinSTBLI-58w_oneJet_3D/LSTMenv.py**: surrogate model for environment
 
 # Run
 python DRLinSTBLI-58w_oneJet_3D/main.py
