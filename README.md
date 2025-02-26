@@ -1,11 +1,11 @@
 DRLinSTBLI
 =
 # Introduction
-Case MBVIM in the paper:
+**Case MBVIM in the paper:**
 
 _Control of Hypersonic Shock-Wave/Laminar Boundary-Layer Interaction using Deep Reinforcement Learning_
 
-Abstract:
+**Abstract:**
 Deep reinforcement learning (DRL) is applied to control the flow separation induced by the shock-wave/boundary-layer interaction (SBLI)  for the first time in a laminar compression ramp configuration simulated via OpenFOAM.
 The wall pressure coefficient serves as the observed state, while the agent outputs microjet actuation as the corresponding action. 
 The wall skin friction coefficient, indicating the extent of SBLI-induced flow separation, is used as the reward to guide the learning process.
@@ -21,17 +21,17 @@ The present study opens a gateway to the closed-loop control of SBLI using state
 OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 
 # Code Guide
-0: Initial flow
+**0:** Initial flow
 
-constant: CFD parameters
+**constant:** CFD parameters
 
-system: control file of CFD
+**system:** control file of CFD
 
-DRLinSTBLI-58w_oneJet_3D/main.py: control file of DRL
+**DRLinSTBLI-58w_oneJet_3D/main.py:** control file of DRL
 
-DRLinSTBLI-58w_oneJet_3D/Env.py: environment model
+**DRLinSTBLI-58w_oneJet_3D/Env.py:** environment model
 
-DRLinSTBLI-58w_oneJet_3D/ExchangeFoam.py: data exchange between CFD and DRL
+**DRLinSTBLI-58w_oneJet_3D/ExchangeFoam.py:** data exchange between CFD and DRL
 
 DRLinSTBLI-58w_oneJet_3D/LSTMenv.py: surrogate model for environment
 
