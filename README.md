@@ -37,3 +37,50 @@ OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 
 # Run
 python DRLinSTBLI-58w_oneJet_3D/main.py
+
+successful runnning
+'''
+**Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+numEpisode: 1
+numEpisode: 2
+numEpisode: 3
+numEpisode: 4
+numEpisode: 5
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 50       |
+|    ep_rew_mean     | -31.7    |
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 0        |
+|    time_elapsed    | 16046    |
+|    total_timesteps | 200      |
+| train/             |          |
+|    actor_loss      | 0.726    |
+|    critic_loss     | 0.0877   |
+|    learning_rate   | 0.0001   |
+|    n_updates       | 99       |
+---------------------------------
+numEpisode: 6
+numEpisode: 7
+numEpisode: 8
+numEpisode: 9
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 50       |
+|    ep_rew_mean     | -33.6    |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 0        |
+|    time_elapsed    | 31518    |
+|    total_timesteps | 400      |
+| train/             |          |
+|    actor_loss      | 0.977    |
+|    critic_loss     | 0.0886   |
+|    learning_rate   | 0.0001   |
+|    n_updates       | 299      |
+---------------------------------
+numEpisode: 10**
+'''
