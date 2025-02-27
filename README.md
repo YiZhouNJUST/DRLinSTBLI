@@ -39,8 +39,8 @@ OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 python DRLinSTBLI-58w_oneJet_3D/main.py
 
 successful runnning
-'''
-**Using cpu device
+
+```Using cpu device
 Wrapping the env with a `Monitor` wrapper
 Wrapping the env in a DummyVecEnv.
 numEpisode: 1
@@ -82,5 +82,8 @@ numEpisode: 9
 |    learning_rate   | 0.0001   |
 |    n_updates       | 299      |
 ---------------------------------
-numEpisode: 10**
-'''
+numEpisode: 10
+
+
+
+
