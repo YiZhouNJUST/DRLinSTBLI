@@ -38,7 +38,7 @@ OpenFOAM 7, Anaconda, Pytorch, Stable-Baselines3, gym
 # Run
 python DRLinSTBLI-58w_oneJet_3D/main.py
 
-successful runnning
+successful runnning:
 
 ```Using cpu device
 Wrapping the env with a `Monitor` wrapper
@@ -83,7 +83,3 @@ numEpisode: 9
 |    n_updates       | 299      |
 ---------------------------------
 numEpisode: 10
-
-
-
-
